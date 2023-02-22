@@ -57,7 +57,11 @@ Encore
     })
 
     // enables PostCssLoader support
-    .enablePostCssLoader()
+    .enablePostCssLoader((options) => {
+      options.postcssOptions = {
+        config: './postcss.config.js'
+      }
+    })
     
     // enables Sass/SCSS support
     .enableSassLoader()
