@@ -2,6 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+@layer base {
+  html {
+    @apply text-black;
+    font-family: 'Tilt Neon', cursive;
+  }
+}
+
 .radial-blue {
   background: radial-gradient(lightyellow, skyblue);
 }

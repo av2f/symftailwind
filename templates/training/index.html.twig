@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello TrainingController!{% endblock %}
+
+{% block body %}
+<div class="Parent h-screen text-white bg-slate-900">
+  <div class="container mx-auto">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-1">
+      <div class="bg-sky-500 p-6 rounded-lg">1</div>
+      <div class="bg-sky-500 p-6 rounded-lg">2</div>
+      <div class="bg-sky-500 p-6 rounded-lg">3</div>
+      <div class="bg-red-500 p-6 rounded-lg col-span-3">4</div>
+      <div class="bg-sky-500 p-6 rounded-lg">5</div>
+      <div class="bg-sky-500 p-6 rounded-lg">6</div>
+    </div>
+    <hr class="h-px my-5">
+    <div class="grid grid-flow-col auto-cols max">
+      <div class="p-6 rounded-lg bg-sky-500">01</div>
+      <div class="p-6 rounded-lg bg-sky-500">02</div>
+      <div class="p-6 rounded-lg bg-sky-500">03</div>
+    </div>
+    <hr class="h-px my-5">
+    <div class="grid grid-flow-col grid-rows-4 gap-4">
+      <div class="row-span-2 p-6 rounded-lg bg-sky-500">01</div>
+      <div class="p-6 rounded-lg bg-sky-500">02</div>
+      <div class="p-6 rounded-lg bg-sky-500">03</div>
+      <div class="p-6 rounded-lg bg-sky-500">04</div>
+      <div class="p-6 rounded-lg bg-sky-500">05</div>
+      <div class="p-6 rounded-lg bg-sky-500">06</div>
+      <div class="p-6 rounded-lg bg-sky-500">07</div>
+      <div class="p-6 rounded-lg bg-sky-500">08</div>
+      <div class="p-6 rounded-lg bg-sky-500">09</div>
+      <div class="p-6 rounded-lg bg-sky-500">10</div>
+      <div class="p-6 rounded-lg bg-sky-500">11</div>
+      <div class="p-6 rounded-lg bg-sky-500">12</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
