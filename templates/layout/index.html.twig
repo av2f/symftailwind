@@ -3,7 +3,13 @@
 {% block title %}Hello TrainingController!{% endblock %}
 
 {% block body %}
-<div class="h-screen text-white bg-slate-900">
+<div class="h-screen p-4">
+  <header class="w-full border-2 border-red-500 border-dashed py-4 mb-6">Header</header>
+  <div class="divide-y divide-red-500">
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+  </div>
   <div class="container px-2 columns-3">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat quia aliquam molestiae maiores expedita veritatis iusto, necessitatibus velit quos sint obcaecati nemo iste ipsam? Vero animi facere excepturi aliquam.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione reprehenderit facilis, magni laudantium, exercitationem unde deserunt harum ea ipsam repudiandae sequi, necessitatibus libero optio a quibusdam ipsum veniam nostrum. Voluptatem!</p>
@@ -14,6 +20,14 @@
     <div class="relative w-32 h-32 p-8 bg-red-500 rounded-lg">
       <div class="absolute inset-2 w-24 h-24 bg-green-500 rouded-lg"></div>
     </div>
+  </div>
+  <hr class="h-px my-8">
+  <h1 class="mb-6">Effects & Filters</h1>
+  <div class="inline-block p-4 mb-8 text-black bg-white border rounded-lg shadow-md">
+    <img src="./img/testfilter.jpg" class="w-64 mb-4 brightness-125 blur-sm hover:blur-none skew-y-6"
+    <h1 class="text-2xl">Hello</h1>
+    <p class="mb-4">This is my div</p>
+    <button class="px-3 py-2 rounded-lg cursor-pointer bg-cyan-500 text-white hover:-translate-y-1 transition">Say Hello</button>
   </div>
 </div>
 {% endblock %}
