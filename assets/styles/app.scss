@@ -9,6 +9,30 @@
     @apply text-black;
     font-family: 'Tilt Neon', cursive;
   }
+
+  h1 {
+    @apply mb-2 text-3xl font-bold;
+  }
+
+  h2{
+    @apply mb-1 text-xl font-semibold;
+  }
+
+  a {
+    @apply underline text-blue-600 hover:text-purple-500 transition;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-lg text-white hover:transition hover:duration-300 hover:opacity-80;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600
+  }
+
+  .btn-secondary {
+    @apply bg-slate-800
+  }
 }
 
 .radial-blue {
