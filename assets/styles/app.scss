@@ -30,12 +30,20 @@
     @apply px-1 py-1 border border-slate-300 rounded-sm outline-none;
   } */
 
-  input {
+  input, select {
     @apply px-1 py-1 border border-slate-300 rounded-sm outline-none;
   }
 
   input[type="checkbox"] {
     @apply p-2 accent-purple-500;
+  }
+
+  select {
+    @apply pr-8
+  }
+
+  .Select {
+    @apply p-1 mb-1 border border-slate-300 rounded outline-none transition inline-block pr-8 cursor-pointer hover:bg-slate-100;
   }
 
   .btn {
